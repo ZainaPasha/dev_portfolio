@@ -28,7 +28,7 @@ const projects = [
     title: "Rural Reach - AI Powered Healthcare Referral System",
     description:
       "AI-powered referral system recommending the top three hospitals for rural patients based on emergency severity and resource availability. Includes an admin dashboard to manage referrals and schedule appointments.",
-    image: "./public/images/rural_reach.png",
+    image: "/images/rural_reach.png",
     tech: [
       {
         icon: SiNextdotjs,
@@ -63,7 +63,7 @@ const projects = [
     title: "Safe Haven",
     description:
       "A landing page for a mental health tracking app, with mood tracking, journaling, and resource sharing.",
-    image: "./public/images/safe_haven.png",
+    image: "/images/safe_haven.png",
     tech: [
       {
         icon: SiReact,
@@ -88,7 +88,7 @@ const projects = [
     title: "Cube Craze Challenge",
     description:
       "A website for the smooth execution of Crescent Literary Society's Writer's Guild auditions.",
-    image: "./public/images/cube-craze.png",
+    image: "/images/cube-craze.png",
     tech: [
       {
         icon: SiHtml5,
@@ -109,7 +109,7 @@ const projects = [
     title: "Tesla Website Clone",
     description:
       "A modern, responsive website inspired by Tesla's official site. Focused on sleek UI and clean layouts.",
-    image: "./public/images/tesla_website_clone.png",
+    image: "/images/tesla_website_clone.png",
     tech: [
       {
         icon: SiHtml5,
