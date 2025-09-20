@@ -10,20 +10,75 @@ import {
   SiNodedotjs,
   SiExpress,
   SiMongodb,
-  SiMysql,
-  SiSupabase,
-  SiPython,
   SiTensorflow,
-  SiNumpy,
-  SiPandas,
-  SiDocker,
   SiJavascript,
   SiHtml5,
   SiCss3,
+  SiRadixui,
+  SiFramer,
+  SiPrisma,
+  SiCloudinary,
+  SiPostgresql,
+  SiPytorch,
 } from "react-icons/si";
 
 // Projects data
 const projects = [
+  {
+    title: "InterioAI - AI Powered Interior Designer",
+    description:
+      "AI-powered tool that reimagines room interiors by combining Stable Diffusion with ControlNet depth conditioning. Users can upload their room photo and generate realistic redesigns guided by custom style prompts, leveraging PyTorch, ControlNet, and depth estimation for precise spatial awareness.",
+    image: "/images/interioai.png",
+    tech: [
+      {
+        icon: SiNextdotjs,
+        name: "Next.js",
+        color: "bg-gray-800/20 text-gray-300",
+      },
+      {
+        icon: SiReact,
+        name: "React.js",
+        color: "bg-blue-500/20 text-blue-400",
+      },
+      {
+        icon: SiNodedotjs,
+        name: "Node.js",
+        color: "bg-green-500/20 text-green-400",
+      },
+      {
+        icon: SiPytorch,
+        name: "PyTorch",
+        color: "bg-red-600/20 text-red-400",
+      },
+      {
+        icon: SiCloudinary,
+        name: "Cloudinary",
+        color: "bg-sky-500/20 text-sky-400",
+      },
+      {
+        icon: SiPostgresql,
+        name: "PostgreSQL",
+        color: "bg-blue-800/20 text-blue-300",
+      },
+      {
+        icon: SiPrisma,
+        name: "Prisma",
+        color: "bg-indigo-500/20 text-indigo-400",
+      },
+      {
+        icon: SiFramer,
+        name: "Framer Motion",
+        color: "bg-pink-500/20 text-pink-400",
+      },
+      {
+        icon: SiRadixui,
+        name: "shadcn/ui",
+        color: "bg-purple-500/20 text-purple-400",
+      },
+    ],
+    liveUrl: "https://ai-interior-designer-sable.vercel.app/",
+    githubUrl: "https://github.com/ZainaPasha/AI-Interior-Designer",
+  },
   {
     title: "Rural Reach - AI Powered Healthcare Referral System",
     description:
