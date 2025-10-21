@@ -40,16 +40,17 @@ export default function Navigation() {
   };
 
   return (
-    <nav 
-      className="fixed top-6 left-1/2 transform -translate-x-1/2 z-50 nav-blur rounded-full px-8 py-4"
+    <nav
+      className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 nav-blur rounded-full
+                 px-3 sm:px-6 md:px-8 py-2 sm:py-3 md:py-4"
       data-testid="navigation"
     >
-      <div className="flex items-center space-x-8">
+      <div className="flex items-center space-x-3 sm:space-x-4 md:space-x-8 overflow-x-auto no-scrollbar">
         {navItems.map((item) => (
           <button
             key={item.href}
             onClick={() => handleNavClick(item.href)}
-            className={`text-sm font-medium transition-colors duration-300 hover:text-primary ${
+            className={`text-xs sm:text-sm md:text-base font-medium transition-colors duration-300 hover:text-primary flex-shrink-0 ${
               activeSection === item.href.substring(1) ? 'text-primary' : 'text-foreground'
             }`}
             data-testid={`nav-${item.label.toLowerCase()}`}
