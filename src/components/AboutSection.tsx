@@ -45,8 +45,8 @@ export default function AboutSection() {
   const isInView = useInView(ref, { once: true, amount: 0.3 });
   const [typingText, setTypingText] = useState("");
 
-  const fullAboutText = `With 3+ years in software development and a passion for product development and AI, 
-  I build user-centric web and AI systems that turn ideas into real-world value.`;
+  const fullAboutText = `With hands on experience in software development and a passion for product development and AI, 
+  I build user-centric software and AI systems that turn ideas into real-world value.`;
 
   useEffect(() => {
     if (isInView) {
