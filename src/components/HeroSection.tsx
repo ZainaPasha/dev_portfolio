@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 export default function HeroSection() {
   const [displayText, setDisplayText] = useState("");
-  const fullText = "Software Developer & Product Creator";
+  const fullText = "Software Developer";
 
   useEffect(() => {
     let index = 0;
@@ -150,8 +150,8 @@ export default function HeroSection() {
             animate={{ opacity: 1 }}
             transition={{ delay: 1.5 }}
           >
-            Crafting innovative digital experiences through clean code and creative problem-solving.
-            Passionate about building products that make a difference.
+            Building software for real-world use, combining AI and product thinking.
+            Focused on applied AI and product development.
           </motion.p>
 
           <motion.div
